@@ -1,67 +1,206 @@
-<html id="v25"><head> 
-  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
-  <title>你好</title> 
-  <script src="js/jq.js"></script> 
- </head> 
- <body id="v20" style="background-image: url('Image_354036035125080.jpg'); background-repeat: no-repeat; background-size: cover;"> 
-  <center id="v21"> 
-   <h1 id="v22" style="text - align: center;">你好网站探索者</h1> 
-  </center> 
-  <center id="v23"> 
-   <p id="v24">欢迎来到蜂窝网！</p> 
-  </center> 
-  <style id="v27">
-        div {
-            border: 2px solid black;
-            border - radius: 5px;
-            width: 200px
-            height: 100px
-            margin-top: 10px;
-        }
-    </style> 
-  <script src="js/jq.js"></script> 
-  <div id="v29"> 
-   <h1 id="v30"> 
-    <center id="v31">
-      什么是蜂窝网? 
-    </center></h1> 
-   <br id="v32"> 
-   <center id="v33">
-     1.可靠的工具 
-   </center> 
-   <br id="v34"> 
-   <center id="v35">
-     2.快速的更新 
-   </center> 
-   <br id="v36"> 
-   <center id="v37">
-     3.没有一点广告 
-   </center> 
-   <br id="v38"> 
-  </div> 
-  <div id="v39"> 
-   <h1 id="v40"> 
-    <center id="v41">
-      关于我们 
-    </center></h1> 
-   <br id="v42">蜂窝网成立于2024年5月7日，是由开发者“宇”个人建立的，以前做过游戏，但质量过低而放弃，现在转行刻苦钻研css技术和HTML技术 
-  </div> 
-  <br id="v43"> 
-  <br id="v44"> 
-  <br id="v45"> 
-  <div id="v46"> 
- <center> <h1>我想安装kali？</h1></center>
- <p><center>请在termux中依次输入</center></p>
- <p><center>1.termux-setup-storage</center></p>
-<p><center>2.pkg install wget</center></p>
-<p><center>3wget -O install-nethunter-termux https://offs.ec/2MceZWr</center></p>
-<p><center>4chmod +x install-nethunter-termux</center></p>
-<p><center>5./install-nethunter-termux</center></p>
-  </div>  
-  <h1>什么是kali Linux？</h1>
-  <center><p>Kali Linux 是一个基于 Debian 的 Linux 发行版，主要用于数字取证和渗透测试。它预装了大量的安全审计和渗透测试工具，被广泛应用于网络安全领域。Kali Linux 的特点包括工具丰富、开源免费、安全性高和社区活跃。它可以用于渗透测试、数字取证、安全培训和漏洞研究等场景。</p></center>
-  </body>
+<!doctype html>
+<html>
+    <head>
+        <title>欢迎来到蜂巢网</title>
+        <meta charset="utf-8">
+        <style>
+        /* 设置全局元素信息 */
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            body {
+                background-color: #fff;
+            }
+            
+            a{
+                color: #fff;
+            }
+            
+            .bold {
+                font-weight: bold;
+            }
+        /*********************/
+            
+            .nav {
+                width: 100%;
+                height: 200px;
+                background-color: black;
+                display: flex;
+                align-items: center;
+                padding-left: 70px;
+                position: fixed;
+                top: 0px;
+            }
+            
+            .nav .title {
+                font-size: 100px;
+                color: #fff;
+            }
+            
+            .banner {
+                margin-top: 200px;
+                padding-top: 100px;
+                width: 100%;
+                height: 1000px;
+                background-image: url("img/back_img.jpg");
+                background-size: cover;
+            }
+            
+            .banner .img {
+                width: 400px;
+                height: 400px;
+                background-image: url("img/logo.png");
+                border-radius: 360px;
+                margin: 0 auto;
+            }
+            
+            .banner .title {
+                font-size: 80px;
+                color: #fff;
+                text-align: center;
+            }
+            
+            .banner .content {
+                color: #fff;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                font-size: 35px;
+                margin-top: 15px;
+            }
+            
+            .more_info {
+                margin: 80px 100px;
+                background-color: rgb(165, 167, 168);
+                border-radius: 40px;
+                padding: 40px 50px;
+            }
+            
+            .more_info div {
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+            }
+            
+            .more_info .title{
+                font-size: 50px;
+                color: #000;
+            }
+            
+            .more_info .text{
+                font-size: 40px;
+                word-wrap: break-word;
+                color: #fff;
+            }
+            
+            .footer {
+                width: 100%;
+                background-color: orange;
+                color: #fff;
+                padding: 50px 0px;
+            }
+            
+            .footer .title {
+                font-size: 40px;
+                width: 100%;
+                text-align: center;
+            }
+            
+            .footer .info {
+                font-size: 30px;
+                word-wrap: break-word;
+                width: 100%;
+                text-align: center;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="nav">
+            <div class="title bold">蜂巢网</div>
+        </div>
+        
+        <div class="banner">
+            <div class="img"></div>
+            <div class="title bold">你好网站探索者</div>
+            <br>
+            <span class="content">欢迎来到蜂巢网！</span>
+            <br>
+            <span class="content">我们这里有很多hack tool</span>
+            <br>
+            <span class="content">如果你也想成为我们的一员</span>
+            <br>
+            <span class="content"><a href="#">点击加入我们</a></spqn>
+        </div>
+        
+        <div class="more_info">
+            <div class="title bold">什么是蜂巢网?</div>
+            <div class="text">可靠的Tool</div>
+            <div class="text">快速的更新</div>
+            <div class="text">没有一点广告</div>
+        </div>
+        
+        <div class="more_info">
+            <div class="title bold">我们的工具为什么可靠？</div>
+            <div class="text">我们将termux上的热门工具都放在了这里</div>
+        </div>
+        
+        <div class="more_info">
+            <div class="title bold">我们为什么更新速度快？</div>
+            <div class="text">我们对本站的高度负责</div>
+        </div>
+        
+        <div class="more_info">
+            <div class="title bold">什么是kali Linux？</div>
+            <div class="text">Kali Linux 是一个基于 Debian 的 Linux 发行版，主要用于数字取证和渗透测试。它预装了大量的安全审计和渗透测试工具，被广泛应用于网络安全领域。Kali Linux 的特点包括工具丰富、开源免费、安全性高和社区活跃。它可以用于渗透测试、数字取证、安全培训和漏洞研究等场景。</div>
+        </div>
+        
+        <div class="more_info">
+            <div class="title bold">我想安装kali？</div>
+            <div class="text">请在termux中依次输入</div>
+            <div class="text">1: termux-setup-storage</div>
+            <div class="text">2: pkg install wget</div>
+            <div class="text">3: wget -O install-nethunter-termux https://offs.ec/2MceZWr</div>
+            <div class="text">4: chmod +x install-nethunter-termux</div>
+            <div class="text">5: ./install-nethunter-termux</div>
+        </div>
+        
+        <div class="more_info">
+            <div class="title bold">什么是DDoS？</div>
+            <div class="text">DDoS（分布式拒绝服务）攻击是一种网络攻击手段，攻击者通过控制大量的计算机（通常是通过恶意软件感染的“僵尸”设备），同时向目标服务器发送大量的请求或数据包，使目标服务器无法处理合法用户的请求，从而导致服务中断或瘫痪。</div>
+        </div>
+        
+        <div class="more_info">
+            <div class="title bold">我想安装DDoS？</div>
+            <div class="text">请在termux中依次输入</div>
+            <div class="text">1: pkg install python python2 git</div>
+            <div class="text">2: git clone https://github.com/pembriahmad/DDOS</div>
+            <div class="text">3: cd DDOS</div>
+            <div class="text">4: python2 ddos.py</div>
+        </div>
+        
+        <div class="more_info">
+            <div class="title bold">什么是sqlmap？</div>
+            <div class="text">SQLMap是一款开源的自动化SQL注入工具，由Python编写，广泛用于检测和利用SQL注入漏洞。它支持多种数据库管理系统，包括MySQL、Oracle、PostgreSQL、Microsoft SQL Server、Microsoft Access、IBM DB2、SQLite、Firebird、Sybase、SAP MaxDB等。</div>
+        </div>
+        
+        <div class="more_info">
+            <div class="title bold">我想要安装sqlmap？</div>
+            <div class="text">1: apt update</div>
+            <div class="text">2: apt install git</div>
+            <div class="text">3: git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git</div>
+            <div class="text">4: cd sqlmap</div>
+            <div class="text">5: python sqlmap.py</div>
+        </div>
+        <div class="footer">
+            <div class="title">关于我们</div>
+            <div class="info">蜂巢网成立于2024年5月7日，是由开发者“宇”个人建立的，以前做过游戏，但质量过低而放弃，现在转行刻苦钻研css技术和HTML技术</div>
+        </div>
+    </body>
 </html>
+
 
 
 
